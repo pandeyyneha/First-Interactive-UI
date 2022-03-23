@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="@color/design_default_color_primary"
+        android:onClick="showToast"
+        android:text="@string/button_label_toast"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:background="@color/design_default_color_primary"
+        android:onClick="countUp"
+        android:text="@string/button_label_count"
+        app:layout_constraintTop_toTopOf="@+id/button_toast"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:background="#ffff00"
+        android:gravity="center_vertical"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="160sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/button_toast"
+        tools:layout_editor_absoluteY="43dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
