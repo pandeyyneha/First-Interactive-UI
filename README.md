@@ -1,4 +1,4 @@
 # First-Interactive-UI
-<img scr="/Screenshots/hello toast.gif" height=250px width=150px >
+<img src="/Screenshots/hello toast.gif" alt="hellotoast" width="250" height="150">
 
 in task one
