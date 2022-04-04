@@ -1,4 +1,5 @@
 # First-Interactive-UI
-<img src="/Screenshots/hello toast.gif" alt="hellotoast" width="250" height="150">
+<img src="/Screenshots/hello toast.gif" alt="hellotoast" width="250" height="450">
 
-in task one
+This app consist of two buttons (toast and count) and a TextView.
+
